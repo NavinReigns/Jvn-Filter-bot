@@ -23,7 +23,7 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/1317b96c7b02ba924dfd3.jpg')
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1261585710').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001887447927').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "jvncreation")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'filter_bot')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001811235622'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreation')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
 IMDB = is_enabled((environ.get('IMDB', 'True')), True)
