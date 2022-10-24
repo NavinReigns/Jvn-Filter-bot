@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hello Nanba & Nanbi {}👋
-My Name Is {[Caption Jack Sparrow](@jvn_filter_bot)},
+My Name Is Caption Jack Sparrow😎,
 I Can Provide Movies & Series🎬
 
 It's Easy To Use Me: Just Add Me To Your Group As Admin, 
@@ -17,7 +17,7 @@ Thats All, I will Provide Movies There...🤓🤪
 
 ○  Join Official Channel here @jvncreation 🌟
 
-○  It's Official Group : {[Jvn Movie Request 24×7](https://t.me/+Mw5OHYKo9KkzODk9)} ❤️
+○  It's Official Group : @jvncreation ❤️
 
 ○  Search using inline mode
 This methord works on any chat, Just type @jvn_filter_bot and then leave a space and search any movie you want...
@@ -142,7 +142,7 @@ This module only works for my admins
 
 │
 
-├⍟ Dɪꜱᴋ Sɪᴢᴇ : 512 MB
+├⍟ Dɪꜱᴋ Sɪᴢᴇ : <code>512 MB</code>
 
 │
 
