@@ -1,22 +1,23 @@
 class script(object):
-    START_TXT = """Hello.. {} 💖
-I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group
+    START_TXT = """<b>Hello Nanba & Nanbi {}👋
+My Name Is [Caption Jack Sparrow](@jvn_filter_bot),
+I Can Provide Movies & Series🎬
 
-Its Easy To Use Me; Just Add Me To Your Group As Admin, 
-Thats All, i will Provide Movies There...🤓🤪
+It's Easy To Use Me: Just Add Me To Your Group As Admin, 
+Thats All, I will Provide Movies There...🤓🤪
 
 
-⚠️More Help Check Help Button Below
+⚠️More Help Check Help Button Below🤓
 
 😎 Powered by @jvncreation
 
-©️ Maintained By #Navin"""
+🧑‍💻 Developer : #Navin </b>"""
     HELP_TXT = """
-    🙋🏻‍♂️   Hellooo  {} 🤓
+    <b>🙋🏻‍♂️ Hellooo {} 🤓
 
-○  Tutorial video is here @jvncreation
+○  Join Official Channel here @jvncreation 🌟
 
-○  it's Note Complicated...🤓
+○  It's Official Group : [Jvn Movie Request 24×7](https://t.me/+Mw5OHYKo9KkzODk9) ❤️
 
 ○  Search using inline mode
 This methord works on any chat, Just type @jvn_filter_bot and then leave a space and search any movie you want...
@@ -36,7 +37,7 @@ This methord works on any chat, Just type @jvn_filter_bot and then leave a space
 
 😎 Powered by @jvncreation
 
-©️ Maintained By #Navin"""
+🧑‍💻 Developer : #Navin </b>"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/jvncreation>Navin</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
@@ -125,11 +126,39 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """╭─────❪ 𝗦𝗧𝗔𝗧𝗨𝗦 ❫─────⍟
+
+│
+
+★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+
+│
+
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
+
+│
+
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> """
+
+│
+
+★ 𝚃𝙾𝚃𝙰𝙻 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>512 MB</code>  
+
+│
+
+★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
+
+│
+
+★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>
+
+│
+
+╰───❪ @JvnCreaTion ❫───⍟"""
+
+
+
+
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
