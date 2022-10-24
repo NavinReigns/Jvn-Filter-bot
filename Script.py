@@ -127,39 +127,20 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """╭─────❪ 𝗦𝗧𝗔𝗧𝗨𝗦 ❫─────⍟
-
 │
-
-├⍟ Tᴏᴛᴀʟ Fɪʟᴇs : <code>{}</code>
-
+<b>├⍟ Tᴏᴛᴀʟ Fɪʟᴇs :</b> <code>{}</code>
 │
-
-├⍟ Aᴄᴛɪᴠᴇ Uꜱᴇʀꜱ : <code>{}</code>
-
+<b>├⍟ Aᴄᴛɪᴠᴇ Uꜱᴇʀꜱ :</b> <code>{}</code>
 │
-
-├⍟ Tᴏᴛᴀʟ Gʀᴏᴜᴘs : <code>{}</code>
-
+<b>├⍟ Tᴏᴛᴀʟ Gʀᴏᴜᴘs :</b> <code>{}</code>
 │
-
-├⍟ Dɪꜱᴋ Sɪᴢᴇ : <code>512 MB</code>
-
+<b>├⍟ Dɪꜱᴋ Sɪᴢᴇ :</b> <code>512 MB</code>
 │
-
-├⍟ Dɪꜱᴋ Uꜱᴇᴅ : <code>{}</code>
-
+<b>├⍟ Dɪꜱᴋ Uꜱᴇᴅ :</b> <code>{}</code>
 │
-
-├⍟ Fʀᴇᴇ Dɪꜱᴋ : <code>{}</code>
-
+<b>├⍟ Fʀᴇᴇ Dɪꜱᴋ :</b> <code>{}</code>
 │
-
 ╰───❪ <b>@JvnCreaTion</b> ❫───⍟"""
-
-
-
-
-
 
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
