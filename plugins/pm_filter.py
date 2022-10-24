@@ -120,7 +120,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("okDa", show_alert=True)
+        return await query.answer("Make Your Own Request🤓", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
@@ -708,7 +708,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>📁 Found</b> {total_results} <b>Files For</b> {search}🎬 \n\n<i>⚡ Uploaded By</i> @jvncreation"
+        cap = f"<b>Movie Name 🎞️ :</b> {search} \n<b>Total Files📂 :</b> {total_results} \n<b>⚡ Uploaded By @jvncreation<b/> \n\n🔗<b>Join : @jvncreation </b>🔗"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
