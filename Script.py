@@ -8,9 +8,9 @@ Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/jvn_filter_bot>Cᴀᴘᴛᴀɪɴ Jᴀᴄ
     HELP_TXT = """
     <b>🙋🏻‍♂️ Hellooo {} 🤓
 
-○  Join Official Channel here : <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 🌟
+○  Join Official Channel Here👉 : <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 🌟
 
-○  It's Official Group : <a href=https://t.me/+Mw5OHYKo9KkzODk9>Jᴠɴ Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ 24×7</a> ❤️
+○  It's Official Group👉 : <a href=https://t.me/+Mw5OHYKo9KkzODk9>Jᴠɴ Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ 24×7</a> ❤️
 
 ○  Search using inline mode:-
 This methord works on any chat, Just type @jvn_filter_bot and then leave a space and search any movie you want...
