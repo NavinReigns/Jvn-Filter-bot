@@ -1,23 +1,20 @@
 class script(object):
-    START_TXT = """<b>Hello Nanba & Nanbi {}👋
-My Name Is Caption Jack Sparrow😎,
-I Can Provide Movies & Series🎬
+    START_TXT = """<b>Hᴇʟʟᴏ Nᴀɴʙᴀ / Nᴀɴʙɪ 👋 ,{}
 
-It's Easy To Use Me: Just Add Me To Your Group As Admin, 
-Thats All, I will Provide Movies There...🤓🤪
+Mʏ Nᴀᴍᴇ ɪs {},
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs,
+Jᴜsᴛ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴀɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ,
+Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs😎🔥
 
+🔥 Pᴏᴡᴇʀᴇᴅ ʙʏ @ᴊᴠɴᴄʀᴇᴀᴛɪᴏɴ 💫
 
-⚠️More Help Check Help Button Below🤓
-
-😎 Powered by @jvncreation
-
-🧑‍💻 Developer : #Navin </b>"""
+🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : #Nᴀᴠɪɴ </b>"""
     HELP_TXT = """
     <b>🙋🏻‍♂️ Hellooo {} 🤓
 
 ○  Join Official Channel here @jvncreation 🌟
 
-○  It's Official Group : @jvncreation ❤️
+○  It's Official Group : <a href=https://t.me/+Mw5OHYKo9KkzODk9>Jᴠɴ Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ 24×7</a> ❤️
 
 ○  Search using inline mode
 This methord works on any chat, Just type @jvn_filter_bot and then leave a space and search any movie you want...
@@ -37,9 +34,9 @@ This methord works on any chat, Just type @jvn_filter_bot and then leave a space
 
 😎 Powered by @jvncreation
 
-🧑‍💻 Developer : #Navin </b>"""
+🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Navin_Reigns>Nᴀᴠɪɴ</a> </b>"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/jvncreation>Navin</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Navin_Reigns>Nᴀᴠɪɴ</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
