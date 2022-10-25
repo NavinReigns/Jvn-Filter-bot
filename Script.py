@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ Nᴀɴʙᴀ / Nᴀɴʙɪ 👋 ,{}
-Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/jvn_filter_bot>Cᴀᴘᴛᴀɪɴ Jᴀᴄᴋ Sᴘᴀʀʀᴏᴡ😎</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴀɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ, Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs😎🔥
+Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/jvn_filter_bot>Cᴀᴘᴛᴀɪɴ Jᴀᴄᴋ Sᴘᴀʀʀᴏᴡ😎</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴀɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ, Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs😎🔥
 
 💖 Pᴏᴡᴇʀᴇᴅ ʙʏ © <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 💫
 
