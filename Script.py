@@ -1,18 +1,15 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ Nᴀɴʙᴀ / Nᴀɴʙɪ 👋 ,{}
+Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/jvn_filter_bot>Cᴀᴘᴛᴀɪɴ Jᴀᴄᴋ Sᴘᴀʀʀᴏᴡ😎</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs,
+Jᴜsᴛ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴀɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ, Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs😎🔥
 
-Mʏ Nᴀᴍᴇ ɪs {},
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs,
-Jᴜsᴛ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴀɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ,
-Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs😎🔥
+❤️ Pᴏᴡᴇʀᴇᴅ ʙʏ <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 💫
 
-🔥 Pᴏᴡᴇʀᴇᴅ ʙʏ @ᴊᴠɴᴄʀᴇᴀᴛɪᴏɴ 💫
-
-🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : #Nᴀᴠɪɴ </b>"""
+🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Navin_Reigns>Nᴀᴠɪɴ</a> </b>"""
     HELP_TXT = """
     <b>🙋🏻‍♂️ Hellooo {} 🤓
 
-○  Join Official Channel here @jvncreation 🌟
+○  Join Official Channel here <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 🌟
 
 ○  It's Official Group : <a href=https://t.me/+Mw5OHYKo9KkzODk9>Jᴠɴ Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ 24×7</a> ❤️
 
@@ -32,7 +29,7 @@ This methord works on any chat, Just type @jvn_filter_bot and then leave a space
 
 ○Dont Spam Me...🤒
 
-😎 Powered by @jvncreation
+❤️ Pᴏᴡᴇʀᴇᴅ ʙʏ <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 💫
 
 🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Navin_Reigns>Nᴀᴠɪɴ</a> </b>"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -137,7 +134,7 @@ This module only works for my admins
 │
 <b>├⍟ Fʀᴇᴇ Dɪꜱᴋ :</b> <code>{}</code>
 │
-╰───❪ <b>@JvnCreaTion</b> ❫───⍟"""
+╰───❪ <b><a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ 💫</a></b> ❫───⍟"""
 
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
