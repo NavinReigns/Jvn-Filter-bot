@@ -14,21 +14,21 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '15811312'))
 API_HASH = environ.get('API_HASH', 'cfaff73fc72c4f5969a97b40571ac4a3')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5393101255:AAF1DJXgxgduCaDM72PmSpuqBsu_w_-1XtU')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5843152439:AAEcllukwtHhn4dA52f68Clb8oyfv4TyN3Q')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/1317b96c7b02ba924dfd3.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1261585710').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001887447927 -1001635893048').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001691911782').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1261585710').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
-AUTH_CHANNEL = -1001635893048
+AUTH_CHANNEL = -1001870405355
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
@@ -37,11 +37,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "jvncreation")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'filter_bot')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001811235622'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreation')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001841915049'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Jvn_LinkZz')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
 IMDB = is_enabled((environ.get('IMDB', 'True')), True)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '<b>@jvncreation</b> <code>{file_name}</code> \n\n<b>Join👉</b> <b>[Jvn OTT Movies HD🎬](https://t.me/+WZTFJGe7cd85Mjc9) For New Movies🎥</b> \n\n<b>Powered By @jvncreation🔥</b>')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '<b>@jvncreation</b> <code>{file_name}</code> \n\n<b>Join👉</b> <b>[Jvn OTT Movies HD🎬](https://t.me/+WZTFJGe7cd85Mjc9) For New Movies🎥</b> \n\n<b>Powered By @jvncreation🔥</b>')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n🔊 Language: {languages} \n\n📥<b>Uploader : [Jvn CreaTion😎](https://t.me/jvncreation)</b>\n🚀<b>Group : [Jvn Movie Request 24×7](https://t.me/+Mw5OHYKo9KkzODk9)</b>")
@@ -51,7 +51,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
